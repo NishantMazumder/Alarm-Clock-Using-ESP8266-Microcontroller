@@ -1,1 +1,2 @@
-# Alarm-Clock-Using-ESP8266-Microcontroller
+Mini Project for the course Microprocessor and Computer Architecture
+
