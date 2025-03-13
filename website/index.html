@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alarm Clock</title>
+    <style>
+        body {
+            text-align: center; /* Center align all content */
+        }
+        
+        /* Add vertical margin to all direct children of body except the last one */
+        body > *:not(:last-child) {
+            margin-bottom: 20px; /* Adjust the value as needed */
+        }
+
+        /* Add larger margin-bottom to the heading */
+        .heading {
+            margin-bottom: 40px; /* Adjust the value as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="heading"> <!-- Added class attribute with value "heading" -->
+        <h1>Alarm Clock</h1>
+    </div>
+
+    <div>
+        <label>Set Alarm : </label>
+        <input type="time" name="alarm" id="alarm">
+    </div>
+
+    <div id="setalarm">
+        <button>Set Alarm</button>
+    </div>
+
+    <div id="snooze">
+        <button>Snooze </button>
+    </div>
+
+    <div id="th">
+        <button>Retrieve Temperature & Humidity</button>
+    </div>
+
+    <h3>All Alarms</h3>
+    <div id="alarmssection">
+        
+    </div>
+</body>
+</html>
