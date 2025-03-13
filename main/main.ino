@@ -12,8 +12,8 @@
 
 #include "DHT.h"
 
-const char* ssid = "nishantwifi";
-const char* password = "nishantm123";
+const char* ssid = ""; // enter your ssid
+const char* password = ""; // enter your password
 
 //#define SAN_DBG_ENABLE
 #include "san_utils.h"
